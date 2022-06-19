@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Roboto:wght@100&display=swap');
+
+/* Resume Class
+  Any edits here is general and effects entire resume since 
+  the entire html code is inside a div tag with class resume
+*/
+.resume{
+  margin-left: 20%; /* This makes the entire resume be centered in the middle*/
+}
+
+/*
+The resume is divided into two halves, 
+this is in the left half where its blue
+Any changes here is general for the left half
+*/
+.resume-section-left{
+  width: 20%; /* This controls the width of the lest section*/
+  height: 100%; /* Height for the left section*/
+
+}
+
+/*
+This class controls the picture of me
+*/
+.resume-profile-picture  {
+  position: fixed; /*Positions the photo in the top left and the size of the picture changes with the size of the screen*/
+  height: 60%; /*Controls height of photo and background colour*/
+  background-color: rgba(137, 177, 205, 0.8); /*Background colour for photo, blue*/
+}
+
+/*
+This makes the photo transparent
+*/
+.transparent{
+  height: 60%;
+  opacity: 0.5; /*This line of code makes the photo transparent so you can see the background colour*/
+}
+
+.resume-content-left{
+  position: fixed;
+  /*top: 30%;*/
+  bottom: 0%;
+  width: 20%;
+  height: 65%;
+  background-color: rgb(40, 129, 192);
+}
+
+/*Padding: one value all sides
+otherwise top right left bottom*/
+
+
+.resume-section-right{
+  float: right;
+  position: ;
+
+}
+
+.resume-name{
+  color: rgba(31, 126, 194, 0.8);
+  
+}
